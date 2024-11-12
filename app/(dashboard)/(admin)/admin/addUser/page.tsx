@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addUser, showMe } from '@/features/user/userSlice';
 import { redirect, useRouter } from 'next/navigation';
 import toast from 'react-hot-toast';
-import { RootState } from '../../../store/store';
+import { RootState } from '@/store/store';
 import { capitalize } from 'lodash';
 import Loading from '@/app/components/Loading';
 
