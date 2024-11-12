@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "nextmedsite",
+		"path": "../.."
+	},
+	{
+		"name": "public",
+		"path": "../../../public"
+	}
+],
+  "settings": {}
+}
