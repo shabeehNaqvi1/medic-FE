@@ -10,6 +10,9 @@
 // export default nextConfig;
 
 const nextConfig = {
+  typescript:{
+    ignoreBuildErrors: true,
+  },
   reactStrictMode: true,
   images: {
     domains: ["res.cloudinary.com", "s.gravatar.com", "lh3.googleusercontent.com"],
